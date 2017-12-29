@@ -1,0 +1,254 @@
+body {
+
+/* background-image: url(img/dark_bg.jpg); */
+background-color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+cursor:url(pics/aotcursor.ico);
+    scrollbar-face-color:beige;
+    scrollbar-arrow-color:black;
+    scrollbar-track-color:black;
+	scrollbar-3dlight-color:beige;
+    scrollbar-base-color:green;
+    scrollbar-darkshadow-color:black;
+    scrollbar-highlight-color:black;
+    scrollbar-shadow-color:beige;
+}
+td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+td a:link {cursor:url(pics/aotcursor.ico); text-decoration: none; color: black; }
+td a:visited {cursor:url(pics/aotcursor.ico); text-decoration: none; color: darkblue; }
+td a:hover {cursor:url(pics/aotcursor.ico); text-decoration: underline;	color: darkblue;  }
+
+.foot a:link  {cursor:url(pics/aotcursor.ico); text-decoration: underline; color: #ffffff ; }
+.foot a:visited {cursor:url(pics/aotcursor.ico); text-decoration: underline; color: #ffffff ; }
+.foot a:hover {cursor:url(pics/aotcursor.ico); text-decoration: underline;	color: #ffffff;  }
+
+
+.tablink2 a:link  { text-decoration: none; color: #000000 ; }
+.tablink2 a:visited {text-decoration: none; color: #000000 ; }
+.tablink2 a:hover {text-decoration: none;	color: #6C0000;  }
+
+
+a:link  {cursor:url(pics/aotcursor.ico); text-decoration: none; color: black ; }
+a:visited {cursor:url(pics/aotcursor.ico); text-decoration: none; color: darkblue ; }
+a:hover {cursor:url(pics/aotcursor.ico); text-decoration: underline;	color: darkblue;  }
+
+
+.topbord {
+	background-image: url(img/top_bord.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+
+}
+.midsect {
+	background-image: url(img/tan1.jpg);
+	background-repeat: repeat;
+}
+.left {
+	background-image: url(img/left_border.gif);
+}
+.right {
+	background-image: url(img/right_border.gif);
+}
+.bottombord {
+	background-image: url(img/bottom_bord.gif);
+	background-repeat: repeat-x;
+
+}
+.tablehead {
+	border-top: 1px none #999966;
+	border-right: 1px dashed #999966;
+	border-bottom: 1px none #999966;
+	border-left: 1px none #999966;
+	padding-top: 0px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+	padding-left: 4px;
+
+
+
+}
+.tableborder {
+	border-top: 1px dashed #999966;
+	border-right: 1px none #999966;
+	border-bottom: 1px dashed #999966;
+	border-left: 1px dashed #999966;
+
+}
+.aomflink {
+	background-image: url(img/tan2.jpg);
+	border: none;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.nav {
+	border: 1px dotted #999966;
+	padding-right: 4px;
+	background-image: url(img/tan2.jpg);
+
+
+}
+
+.form {
+/*color: #4F5D66;*/
+/*border: 1px solid #999966;*/
+/*background: white;*/
+cursor:url(pics/aotcursor.ico);
+background-color:Beige;
+border-color:silver;
+color:darkblue;
+}
+
+.foot {
+	color: #FFFFFF;
+	padding: 4px;
+	border: none;
+}
+.end {
+	background-image: url(img/tan2.jpg);
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: dashed;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #999966;
+	border-right-color: #999966;
+	border-bottom-color: #999966;
+	border-left-color: #999966;
+	padding-right: 4px;
+}
+
+/* 
+	These settings only apply to browsers capable of @import (almost anything but
+	Netscape 4.x
+*/
+.tab {
+	width:auto;
+	border: solid 1px #999966 ;
+    background-image: url(img/tan2.jpg);
+	/*
+		 It might be nicer to add a display:none here, but that'll rule 
+		 out Opera users
+	*/
+}
+
+.tablink2 {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.tablink {
+	display:inline; /*mandatory*/
+	margin-right:.2em;
+	padding-left:.3em;
+	padding-right:.3em;
+	text-decoration:none;
+	font-weight:bold;
+}
+.backtotop {
+	display:none; /*mandatory*/
+}.logo {
+	background-image: url(img/header_titan.jpg);
+}
+
+.ad {
+	clip:  rect(0px 12px 0px 0px);
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+}
+
+.row2 {
+	background-image: url(img/tan2.jpg);
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	padding-right: 4px;
+	padding-left: 4px;
+
+
+}
+.row2head {
+	background-image: url(img/tan2.jpg);
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	padding-right: 4px;
+	padding-left: 4px;
+	border: 1px solid #999966;
+	
+
+
+}
+.row1 {
+	background-image: url(img/tan3.jpg);
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+
+}
+.head {
+	font-size: 20px;
+	color: #434951;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+	padding-botom: 4px;
+	padding-top: 4px;
+}
+
+.subhead {
+	font-size: 14px;
+	color: #434951;
+	font-weight: bold;
+	
+
+}
+
+.tbord {
+border: 1px solid #999966;
+
+}
+
+.cathead {
+	background-image: url(img/cat_bar.jpg);
+	background-repeat: repeat-x;
+	height: 26px;
+	padding: 4px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+.bar {
+	background-image: url(img/goduse2.jpg);
+	background-repeat: repeat-x;
+}
+.opposite {
+	background-color: #CCCCCC;
+}
+.bar2 {
+	background-image: url(img/goduse1.jpg);
+	background-repeat: repeat-x;
+}

@@ -1,0 +1,47 @@
+/* 
+	These settings only apply to browsers capable of @import (almost anything but
+	Netscape 4.x
+*/
+.tab {
+	width:auto;
+	border: dashed 999966 1px;
+		border-width:1px;
+		border-type:solid;
+		border-color:#999966;
+	/*
+		 It might be nicer to add a display:none here, but that'll rule 
+		 out Opera users
+	*/
+}
+.tablink {
+	display:inline; /*mandatory*/
+	margin-right:.2em;
+	padding-left:1em;
+	padding-right:1em;
+	text-decoration:none;
+	font-weight:bold;
+}
+.backtotop {
+	display:none; /*mandatory*/
+}.logo {
+	background-image: url(img/header_titan.jpg);
+}
+.banner {
+	padding: 0px;
+	margin: 0px 20px 0px 0px;
+
+
+
+}
+.ad {
+	clip:  rect(0px 12px 0px 0px);
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+}
